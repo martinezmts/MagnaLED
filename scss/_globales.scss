@@ -1,7 +1,10 @@
-@mixin contenedor($bgColor, $colorH2) {
+@mixin contenedor($bgColor, $colorH2, $colorH3) {
     background-color: $bgColor;
     h2 {
         color: $colorH2;
+    }
+    h3 {
+        color:$colorH3;
     }
 }
 @mixin size($width, $height) {
@@ -15,38 +18,31 @@ body {
         text-decoration: none;
     }
 }
-.cPrimario {
-    color: $primario;
-}
-.cSecundario {
-    color: $secundario;
-}
-.cTerciario {
-    color: $terciario;
-}
-.cBlanco {
-    color: $blanco;
-}
-.cNegro {
-    color: $negro;
-}
-.bgPrimario {
-    background-color: $primario;
-}
-.bgSecundario {
-    background-color: $secundario;
-}
-.bgTerciario {
-    background-color: $terciario;
-}
-.bgBlanco {
-    background-color: $blanco;
-}
-.bgNegro {
-    background-color: $negro;
-}
 .mascara {
     background-color: rgba($color: #000000, $alpha: 0.5);
     @include size(100%, 100%);
+}
+.boton {
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 1rem 3rem;
+    text-align: center;
+    border: none;
+    display: block;
+    flex: 0 0 auto;
+}
+@media (min-width: 768px) {
+    .boton {
+        display: inline-block;
+        flex: 0 0 auto;
+    }
+}
+.botonPrimario {
+    background-color: $secundario;
+    color: $primario;
+}
+.botonSecundario {
+    background-color: $primario;
+    color: $secundario;
 }
  

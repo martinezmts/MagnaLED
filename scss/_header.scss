@@ -16,3 +16,16 @@
         background-color: $secundario;
     }
 }
+.imagenHeader {
+    background-image:url(../img/banner/bannerheader.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    h2 {
+        color: $blanco;
+    }
+    p {
+        color: $secundario;
+    }
+}

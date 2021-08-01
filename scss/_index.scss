@@ -1,0 +1,147 @@
+.contenedorNosotros {
+    @include contenedor($primario, $secundario, $secundario);
+    p {
+        color: $blanco;
+    }
+}
+.contenedorProductos {
+    @include contenedor($secundario, $primario, $secundario);
+    .anuncio {
+        background-color: $primario;
+        margin: 1rem 0.7rem;
+        border-style: solid;
+        border-color: $negro;
+        border-width: 1px;
+        box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.38);
+        -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.38);
+        -moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.38);
+        .anuncio__texto {
+            color: $blanco;
+            .anuncio__texto--sc {
+                color: $secundario;
+            }
+        }
+        a {
+            font-size: 0.8rem;
+            @media (min-width: 992px) {
+                font-size: 1rem;
+            }
+        }
+        .sombraDentro {
+            box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38) inset;
+            -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38) inset;
+            -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38) inset;
+        }
+    }
+}
+.contenedorContactanos {
+    background-image: url(../img/banner/bannercontacto.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    .contactanosContenido {
+        @include size(100%, 100%);
+        h2 {
+            color: $blanco;
+            font-size: 1.2rem;
+            @media (min-width: 450px) {
+                font-size: 2rem;
+            }
+        }
+        p {
+            color: $secundario;
+            font-size: 0.8rem;
+            @media (min-width: 450px) {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+.contenedorInferior {
+    @include contenedor($secundario, $primario, $primario);
+    .seccionInferior {
+        @media (min-width: 1024px) {
+            display: flex;
+            justify-content: space-between;
+        }
+        .seccionBlog {
+            flex-basis: 60%;
+            h3 {
+                text-align: center;
+                @media (min-width: 1024px) {
+                    text-align: start;
+                }
+            }
+            .blogEntrada {
+                @media (min-width: 768px) {
+                    margin-bottom: 3.3rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                }
+                .blogEntrada__imagen {
+                    @media (min-width: 768px) {
+                        flex-basis: 40%;
+                    }
+                }
+                .blogEntrada__contenido {
+                    flex-basis: calc(60% - 3rem);
+                    h4 {
+                        margin-top: 2rem;
+                        color: $primario;
+                        @media (min-width: 768px) {
+                            margin-top: 0;
+                        }
+                    }
+                    h4::after {
+                        content: "";
+                        display: block;
+                        width: 15rem;
+                        height: .5rem;
+                        background-color: $terciario;
+                        margin-top: 1rem;
+                    }
+                    .blogEntrada__contenido--pr {
+                        color: $negro;
+                        span {
+                            color: $primario;
+                        }
+                    }
+                }
+            }
+        }
+        .testimoniales {
+            flex-basis: calc(40% - 2rem);
+            h3 {
+                text-align: center;
+                @media (min-width: 1024px) {
+                    text-align: start;
+                }
+            }
+            .testimoniales__contenido {
+                background-color: $primario;
+                padding: 2rem;
+                border-radius: 2rem;
+                box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.54);
+                -webkit-box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.54);
+                -moz-box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.54);
+                blockquote {
+                    color: $secundario;
+                    font-style: italic;
+                    position: relative;
+                    padding-left: 5rem;
+                    font-weight: 300;
+                    font-size: 1.2rem;
+                    @media (min-width: 500px) {
+                        font-size: 1.8rem;
+                    }
+                }
+                p {
+                    color: $blanco;
+                    text-align: right;
+                }
+            }
+        }
+    }
+}
