@@ -1,0 +1,46 @@
+body {
+  font-family: "Montserrat", sans-serif; }
+  body a {
+    text-decoration: none; }
+
+.cPrimario {
+  color: #39364E; }
+
+.cSecundario {
+  color: #F2D6A2; }
+
+.cTerciario {
+  color: #F28627; }
+
+.cBlanco {
+  color: #fff; }
+
+.cNegro {
+  color: #000; }
+
+.bgPrimario {
+  background-color: #39364E; }
+
+.bgSecundario {
+  background-color: #F2D6A2; }
+
+.bgTerciario {
+  background-color: #F28627; }
+
+.bgBlanco {
+  background-color: #fff; }
+
+.bgNegro {
+  background-color: #000; }
+
+.mascara {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%; }
+
+.navbar img {
+  width: 50px;
+  height: 50px; }
+
+.contenidoFooter__texto--fs {
+  font-size: 0.8rem; }
