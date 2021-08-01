@@ -2,6 +2,8 @@
     @include contenedor($primario, $secundario, $secundario);
     p {
         color: $blanco;
+        line-height: 1.7;
+        font-style: italic;
     }
 }
 .contenedorProductos {

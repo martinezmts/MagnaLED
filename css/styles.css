@@ -79,7 +79,9 @@ body {
   .contenedorNosotros h3 {
     color: #F2D6A2; }
   .contenedorNosotros p {
-    color: #fff; }
+    color: #fff;
+    line-height: 1.7;
+    font-style: italic; }
 
 .contenedorProductos {
   background-color: #F2D6A2; }
@@ -233,3 +235,41 @@ body {
       color: #F2D6A2; }
     .contenedorUbicacion .ubicacion .ubicacion__contenido .ubicacion__contenido--ng {
       color: #fff; }
+
+.contenedorBlog {
+  background-color: #F2D6A2; }
+  .contenedorBlog h2 {
+    color: #39364E; }
+  .contenedorBlog h3 {
+    color: #39364E; }
+  .contenedorBlog .contenedorSmall {
+    width: 60%;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .contenedorBlog .contenedorSmall .blogEntrada {
+        margin-bottom: 3.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; } }
+    @media (min-width: 768px) {
+      .contenedorBlog .contenedorSmall .blogEntrada .blogEntrada__imagen {
+        flex-basis: 40%; } }
+    .contenedorBlog .contenedorSmall .blogEntrada .blogEntrada__contenido {
+      flex-basis: calc(60% - 3rem); }
+      .contenedorBlog .contenedorSmall .blogEntrada .blogEntrada__contenido h4 {
+        margin-top: 2rem;
+        color: #39364E; }
+        @media (min-width: 768px) {
+          .contenedorBlog .contenedorSmall .blogEntrada .blogEntrada__contenido h4 {
+            margin-top: 0; } }
+      .contenedorBlog .contenedorSmall .blogEntrada .blogEntrada__contenido h4::after {
+        content: "";
+        display: block;
+        width: 10rem;
+        height: .5rem;
+        background-color: #C1AB81;
+        margin-top: 1rem; }
+      .contenedorBlog .contenedorSmall .blogEntrada .blogEntrada__contenido .blogEntrada__contenido--pr {
+        color: #000; }
+        .contenedorBlog .contenedorSmall .blogEntrada .blogEntrada__contenido .blogEntrada__contenido--pr span {
+          color: #39364E; }

@@ -1,0 +1,44 @@
+.contenedorBlog {
+    @include contenedor($secundario, $primario, $primario);
+    .contenedorSmall {
+        width: 60%;
+        margin: 0 auto;
+        .blogEntrada {
+            @media (min-width: 768px) {
+                margin-bottom: 3.3rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+            .blogEntrada__imagen {
+                @media (min-width: 768px) {
+                    flex-basis: 40%;
+                }
+            }
+            .blogEntrada__contenido {
+                flex-basis: calc(60% - 3rem);
+                h4 {
+                    margin-top: 2rem;
+                    color: $primario;
+                    @media (min-width: 768px) {
+                        margin-top: 0;
+                    }
+                }
+                h4::after {
+                    content: "";
+                    display: block;
+                    width: 10rem;
+                    height: .5rem;
+                    background-color: $terciario;
+                    margin-top: 1rem;
+                }
+                .blogEntrada__contenido--pr {
+                    color: $negro;
+                    span {
+                        color: $primario;
+                    }
+                }
+            }
+        }
+    }
+}
