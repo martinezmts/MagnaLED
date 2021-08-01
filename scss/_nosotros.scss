@@ -1,0 +1,28 @@
+.contenedorExperiencia {
+    @include contenedor($secundario, $primario, $secundario);
+    .experienciaTexto {
+        line-height: 2;
+    }
+}
+.contenedorUbicacion {
+    @include contenedor($secundario, $primario, $secundario);
+    .ubicacion {
+        .ubicacion__mapa {
+            height: 20rem;
+        }
+        .ubicacion__contenido {
+            background-color: $primario;
+            border-radius: 0;
+            @media (min-width: 576px) {
+                border-radius: 1rem;
+            }
+            .ubicacion__contenido--pr {
+                font-size: 1rem;
+                color: $secundario;
+            }
+            .ubicacion__contenido--ng {
+                color: $blanco;
+            }
+        }
+    }
+}

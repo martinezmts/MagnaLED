@@ -204,3 +204,32 @@ body {
       .contenedorInferior .seccionInferior .testimoniales .testimoniales__contenido p {
         color: #fff;
         text-align: right; }
+
+.contenedorExperiencia {
+  background-color: #F2D6A2; }
+  .contenedorExperiencia h2 {
+    color: #39364E; }
+  .contenedorExperiencia h3 {
+    color: #F2D6A2; }
+  .contenedorExperiencia .experienciaTexto {
+    line-height: 2; }
+
+.contenedorUbicacion {
+  background-color: #F2D6A2; }
+  .contenedorUbicacion h2 {
+    color: #39364E; }
+  .contenedorUbicacion h3 {
+    color: #F2D6A2; }
+  .contenedorUbicacion .ubicacion .ubicacion__mapa {
+    height: 20rem; }
+  .contenedorUbicacion .ubicacion .ubicacion__contenido {
+    background-color: #39364E;
+    border-radius: 0; }
+    @media (min-width: 576px) {
+      .contenedorUbicacion .ubicacion .ubicacion__contenido {
+        border-radius: 1rem; } }
+    .contenedorUbicacion .ubicacion .ubicacion__contenido .ubicacion__contenido--pr {
+      font-size: 1rem;
+      color: #F2D6A2; }
+    .contenedorUbicacion .ubicacion .ubicacion__contenido .ubicacion__contenido--ng {
+      color: #fff; }
