@@ -1,3 +1,36 @@
-.contenidoFooter__texto--fs {
-    font-size: 0.8rem;
+.footer {
+    background-color: $primario;
+    .contenidoFooter {
+        .contenidoFooter__texto {
+            h2 {
+                color: $blanco;
+                span {
+                    color: $secundario;
+                }
+            }
+            .contenidoFooter__texto--bl {
+                color: $secundario;
+                font-size: 0.8rem;
+            }
+            .contenidoFooter__texto--sc {
+                color: $blanco;
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .contenidoFooter__nav {
+        ul {
+            color: $blanco;
+            li {
+                a{
+                    color: $secundario;
+                }
+            }
+        }
+    }
+    .contenidoFooter__newsletter {
+        p {
+            color: $secundario;
+        }
+    }
 }

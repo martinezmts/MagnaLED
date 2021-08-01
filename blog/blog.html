@@ -16,7 +16,7 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="top">
             <div class="container-fluid">
                 <a href="../index.html" class="navbar-brand">
                     <img src="../img/logo/bombilla.png" alt="Logo de MagnaLED" class="d-inline-block align-text-center animate__animated animate__fadeInDown">
@@ -28,42 +28,46 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle animate__animated animate__fadeInDown" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="#" class="nav-link dropdown-toggle animate__animated animate__fadeInDown text-uppercase fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Nosotros
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="../nosotros/nosotros.html">Nuestra Experiencia</a></li>
+                                <li><a class="dropdown-item fst-italic fw-bold" href="../nosotros/nosotros.html">Nuestra Experiencia</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="../nosotros/nosotros.html">Más de Nosotros</a></li>
+                                <li><a class="dropdown-item fst-italic fw-bold" href="../nosotros/nosotros.html#masDeNosotros">Más de Nosotros</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="../nosotros/nosotros.html">Recorrida Virtual</a></li>
+                                <li><a class="dropdown-item fst-italic fw-bold" href="../nosotros/nosotros.html#nosotrosUbicacion">¿Dónde estamos?</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="../catalogo/catalogo.html" class="nav-link animate__animated animate__fadeInDown">Catálogo</a>
+                            <a href="../catalogo/catalogo.html" class="nav-link animate__animated animate__fadeInDown text-uppercase fw-bold">Catálogo</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../blog/blog.html" class="nav-link animate__animated animate__fadeInDown">Blog</a>
+                            <a href="../blog/blog.html" class="nav-link animate__animated animate__fadeInDown text-uppercase fw-bold">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../contacto/contacto.html" class="nav-link animate__animated animate__fadeInDown">Contacto</a>
+                            <a href="../contacto/contacto.html" class="nav-link animate__animated animate__fadeInDown text-uppercase fw-bold">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <footer>
+
+    <footer class="footer">
         <div class="container py-5">
             <div class="row contenidoFooter">
                 <div class="contenidoFooter__texto col-12 col-md-4">
-                    <h2 class="text-center  fw-bold">Magna<span class="fw-bold text-uppercase">Led</span></h2>
-                    <p class="fw-bold text-center">Todos los Derechos Reservados © 2021</p>
-                    <p class="fst-italic text-center">Sitio Creado por Matías Martínez</p>
+                    <h2 class="text-center fw-bold">Magna<span class="fw-bold text-uppercase">Led</span></h2>
+                    <p class="text-center pt-4 fw-bold contenidoFooter__texto--bl">Todos los Derechos Reservados © 2021</p>
+                    <p class="fst-italic text-center contenidoFooter__texto--sc">Sitio Creado por Matías Martínez</p>
                 </div>
-                <div class="contenidoFooter__nav col-12 col-md-4 d-flex justify-content-center">
+                <div class="contenidoFooter__nav col-12 col-md-4 d-flex justify-content-center py-3">
                     <nav>
                         <ul>
+                            <li>
+                                <a href="#top">Ir Arriba</a>
+                            </li>
                             <li>
                                 <a href="../nosotros/nosotros.html">Nosotros</a>
                             </li>
@@ -80,9 +84,10 @@
                     </nav>
                 </div>
                 <div class="contenidoFooter__newsletter col-12 col-md-4">
-                    <p class="fst-italic text-center">Suscribite a Nuestro Newsletter</p>
+                    <p class="fst-italic text-center fw-bold">Suscribite a Nuestro Newsletter</p>
                     <form class="d-flex flex-column">
-                        <input type="email" class="form-control me-2" placeholder="Correo Electrónico" aria-label="email">
+                        <input type="text" class="form-control me-2 text-center" placeholder="Nombre y Apellido" aria-label="name">
+                        <input type="email" class="form-control me-2 mt-3 text-center" placeholder="Correo Electrónico" aria-label="email">
                         <button class="boton text-uppercase fw-bold my-3">Suscribite</button>
                     </form>
                 </div>

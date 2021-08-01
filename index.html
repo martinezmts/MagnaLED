@@ -16,11 +16,11 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bgPrimario">
+        <nav class="navbar navbar-expand-lg navbar-dark" id="top">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand">
                     <img src="img/logo/bombilla.png" alt="Logo de MagnaLED" class="d-inline-block align-text-center animate__animated animate__fadeInDown">
-                    <h1 class="d-inline-block align-text-center fw-bold fs-5 animate__animated animate__fadeInDown">Magna<span class="text-uppercase fw-bold cSecundario">Led</span> </h1>
+                    <h1 class="d-inline-block align-text-center fw-bold fs-5 animate__animated animate__fadeInDown">Magna<span class="text-uppercase fw-bold">Led</span> </h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -31,12 +31,12 @@
                             <a href="#" class="nav-link dropdown-toggle animate__animated animate__fadeInDown text-uppercase fw-bold" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Nosotros
                             </a>
-                            <ul class="dropdown-menu bgSecundario" aria-labelledby="navbarDropdown">
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item fst-italic fw-bold" href="nosotros/nosotros.html#nuestraExperiencia">Nuestra Experiencia</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item fst-italic fw-bold" href="nosotros/nosotros.html#masDeNosotros">Más de Nosotros</a></li>
                                 <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item fst-italic fw-bold" href="nosotros/nosotros.html#nosotrosVideo">Recorrida Virtual</a></li>
+                                <li><a class="dropdown-item fst-italic fw-bold" href="nosotros/nosotros.html#nosotrosUbicacion">¿Dónde estamos?</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -54,36 +54,40 @@
         </nav>
     </header>
 
-    <footer class="bgPrimario">
+    <footer class="footer">
         <div class="container py-5">
             <div class="row contenidoFooter">
                 <div class="contenidoFooter__texto col-12 col-md-4">
-                    <h2 class="text-center fw-bold cBlanco">Magna<span class="fw-bold text-uppercase cSecundario">Led</span></h2>
-                    <p class="text-center cSecundario pt-4 contenidoFooter__texto--fs">Todos los Derechos Reservados © 2021</p>
-                    <p class="fst-italic text-center cBlanco contenidoFooter__texto--fs">Sitio Creado por Matías Martínez</p>
+                    <h2 class="text-center fw-bold">Magna<span class="fw-bold text-uppercase">Led</span></h2>
+                    <p class="text-center pt-4 fw-bold contenidoFooter__texto--bl">Todos los Derechos Reservados © 2021</p>
+                    <p class="fst-italic text-center contenidoFooter__texto--sc">Sitio Creado por Matías Martínez</p>
                 </div>
-                <div class="contenidoFooter__nav col-12 col-md-4 d-flex justify-content-center">
+                <div class="contenidoFooter__nav col-12 col-md-4 d-flex justify-content-center py-3">
                     <nav>
-                        <ul class="cBlanco">
+                        <ul>
                             <li>
-                                <a href="nosotros/nosotros.html" class="cSecundario">Nosotros</a>
+                                <a href="#top">Ir Arriba</a>
                             </li>
                             <li>
-                                <a href="catalogo/catalogo.html" class="cSecundario">Catálogo</a>
+                                <a href="nosotros/nosotros.html" class="">Nosotros</a>
                             </li>
                             <li>
-                                <a href="blog/blog.html" class="cSecundario">Blog</a>
+                                <a href="catalogo/catalogo.html" class="">Catálogo</a>
                             </li>
                             <li>
-                                <a href="contacto/contacto.html" class="cSecundario">Contacto</a>
+                                <a href="blog/blog.html" class="">Blog</a>
+                            </li>
+                            <li>
+                                <a href="contacto/contacto.html" class="">Contacto</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
                 <div class="contenidoFooter__newsletter col-12 col-md-4">
-                    <p class="fst-italic text-center cSecundario">Suscribite a Nuestro Newsletter</p>
+                    <p class="fst-italic text-center fw-bold">Suscribite a Nuestro Newsletter</p>
                     <form class="d-flex flex-column">
-                        <input type="email" class="form-control me-2" placeholder="Correo Electrónico" aria-label="email">
+                        <input type="text" class="form-control me-2 text-center" placeholder="Nombre y Apellido" aria-label="name">
+                        <input type="email" class="form-control me-2 mt-3 text-center" placeholder="Correo Electrónico" aria-label="email">
                         <button class="boton text-uppercase fw-bold my-3">Suscribite</button>
                     </form>
                 </div>
