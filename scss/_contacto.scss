@@ -1,0 +1,29 @@
+.contenedorContacto {
+    @include contenedor($secundario, $primario, $secundario);
+    .formulario {
+        p {
+            font-size: 1.2rem;
+            color: $primario;
+            @media (min-width: 768px) {
+                font-size: 2rem;
+            }
+        }
+        fieldset {
+            border-radius: 1%;
+            box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.54);
+            -webkit-box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.54);
+            -moz-box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.54);
+            background-color: $primario;
+            legend,label {
+                color: $secundario;
+            }
+            input,select,textarea {
+                background-color: $blanco;
+                
+            }
+            .textoBlanco {
+                color: $blanco;
+            }
+        }
+    }
+}

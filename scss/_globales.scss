@@ -24,7 +24,7 @@ body {
 }
 .boton {
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding: 1rem 3rem;
     text-align: center;
     border: none;
@@ -33,6 +33,7 @@ body {
 }
 @media (min-width: 768px) {
     .boton {
+        font-size: 1.2rem;
         display: inline-block;
         flex: 0 0 auto;
     }
@@ -44,5 +45,13 @@ body {
 .botonSecundario {
     background-color: $primario;
     color: $secundario;
+}
+.btnContacto {
+    width: 100%;
+    font-size: 0.9rem;
+    @media (min-width: 770px) {
+        width: 45%;
+        font-size: 1.2rem;
+    }
 }
  

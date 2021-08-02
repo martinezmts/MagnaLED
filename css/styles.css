@@ -10,7 +10,7 @@ body {
 
 .boton {
   border-radius: 5px;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   padding: 1rem 3rem;
   text-align: center;
   border: none;
@@ -19,6 +19,7 @@ body {
 
 @media (min-width: 768px) {
   .boton {
+    font-size: 1.2rem;
     display: inline-block;
     flex: 0 0 auto; } }
 
@@ -29,6 +30,14 @@ body {
 .botonSecundario {
   background-color: #39364E;
   color: #F2D6A2; }
+
+.btnContacto {
+  width: 100%;
+  font-size: 0.9rem; }
+  @media (min-width: 770px) {
+    .btnContacto {
+      width: 45%;
+      font-size: 1.2rem; } }
 
 .navbar {
   background-color: #39364E; }
@@ -273,3 +282,48 @@ body {
         color: #000; }
         .contenedorBlog .contenedorSmall .blogEntrada .blogEntrada__contenido .blogEntrada__contenido--pr span {
           color: #39364E; }
+
+.contenedorContacto {
+  background-color: #F2D6A2; }
+  .contenedorContacto h2 {
+    color: #39364E; }
+  .contenedorContacto h3 {
+    color: #F2D6A2; }
+  .contenedorContacto .formulario p {
+    font-size: 1.2rem;
+    color: #39364E; }
+    @media (min-width: 768px) {
+      .contenedorContacto .formulario p {
+        font-size: 2rem; } }
+  .contenedorContacto .formulario fieldset {
+    border-radius: 1%;
+    box-shadow: 5px 4px 16px 0px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: 5px 4px 16px 0px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: 5px 4px 16px 0px rgba(0, 0, 0, 0.54);
+    background-color: #39364E; }
+    .contenedorContacto .formulario fieldset legend, .contenedorContacto .formulario fieldset label {
+      color: #F2D6A2; }
+    .contenedorContacto .formulario fieldset input, .contenedorContacto .formulario fieldset select, .contenedorContacto .formulario fieldset textarea {
+      background-color: #fff; }
+    .contenedorContacto .formulario fieldset .textoBlanco {
+      color: #fff; }
+
+.contenedorProducto {
+  background-color: #F2D6A2; }
+  .contenedorProducto h2 {
+    color: #39364E; }
+  .contenedorProducto h3 {
+    color: #39364E; }
+  .contenedorProducto .producto .producto__imagen:hover {
+    transform: scale(1.1); }
+  .contenedorProducto .producto .producto__contenido .producto__contenido--bold {
+    color: #39364E; }
+  .contenedorProducto .producto .producto__contenido .producto__contenido--descripcion {
+    line-height: 1.8; }
+  .contenedorProducto .producto ul li {
+    padding: 0.5rem 0;
+    color: #000;
+    font-style: italic; }
+    .contenedorProducto .producto ul li span {
+      font-weight: 700;
+      font-style: normal; }

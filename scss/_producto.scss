@@ -1,0 +1,27 @@
+.contenedorProducto {
+    @include contenedor($secundario, $primario, $primario);
+    .producto {
+        .producto__imagen:hover {
+            transform: scale(1.1);
+        }
+        .producto__contenido{
+            .producto__contenido--bold {
+                color: $primario;
+            }
+            .producto__contenido--descripcion {
+                line-height: 1.8;
+            }
+        }
+        ul {
+            li {
+                padding: 0.5rem 0;
+                color: $negro;
+                font-style: italic;
+                span {
+                    font-weight: 700;
+                    font-style: normal;
+                }
+            }
+        }
+    }
+}
