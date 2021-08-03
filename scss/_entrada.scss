@@ -1,0 +1,11 @@
+.contenedorEntrada {
+    @include contenedor($secundario, $primario, $primario);
+    .entradaTexto {
+        .entradaTextoPr {
+            color: $primario;
+        }
+        .entradaTextoLh {
+            line-height: 2;
+        }
+    }
+}

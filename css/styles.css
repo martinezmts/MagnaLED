@@ -327,3 +327,14 @@ body {
     .contenedorProducto .producto ul li span {
       font-weight: 700;
       font-style: normal; }
+
+.contenedorEntrada {
+  background-color: #F2D6A2; }
+  .contenedorEntrada h2 {
+    color: #39364E; }
+  .contenedorEntrada h3 {
+    color: #39364E; }
+  .contenedorEntrada .entradaTexto .entradaTextoPr {
+    color: #39364E; }
+  .contenedorEntrada .entradaTexto .entradaTextoLh {
+    line-height: 2; }
