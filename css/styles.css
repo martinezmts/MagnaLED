@@ -325,7 +325,8 @@ body {
     .contenedorContacto .formulario fieldset .formulario__input {
       padding: 0.5rem 0; }
       .contenedorContacto .formulario fieldset .formulario__input .formulario__input--espacio {
-        padding-bottom: 0.5rem; }
+        padding-bottom: 0.5rem;
+        font-weight: 700; }
       .contenedorContacto .formulario fieldset .formulario__input a {
         color: #fff; }
     .contenedorContacto .formulario fieldset legend, .contenedorContacto .formulario fieldset label {
@@ -365,3 +366,16 @@ body {
     color: #39364E; }
   .contenedorEntrada .entradaTexto .entradaTextoLh {
     line-height: 2; }
+
+.contenedorTerminos {
+  background-color: #F2D6A2; }
+  .contenedorTerminos h2 {
+    color: #39364E; }
+  .contenedorTerminos h3 {
+    color: #F2D6A2; }
+  .contenedorTerminos .terminosTexto {
+    line-height: 2;
+    text-align: center; }
+    .contenedorTerminos .terminosTexto .terminosTexto__titulo {
+      color: #39364E;
+      font-size: 1.4rem; }

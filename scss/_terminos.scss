@@ -1,0 +1,11 @@
+.contenedorTerminos {
+    @include contenedor($secundario, $primario, $secundario);
+    .terminosTexto {
+        line-height: 2;
+        text-align: center;
+        .terminosTexto__titulo {
+            color: $primario;
+            font-size: 1.4rem;
+        }
+    }
+}
