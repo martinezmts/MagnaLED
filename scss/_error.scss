@@ -1,0 +1,8 @@
+.contenedorError {
+    @include contenedor($secundario, $primario, $secundario);
+    height: 100vh;
+    a {
+        color: $primario;
+        font-weight: 700;
+    }
+}

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Página de Contacto de MagnaLED, Dejanos tus Datos para Poder Ayudarte de la Mejor Manera">
+    <meta name="description" content="Colgante Media Onda de la Marca Magnalum">
     <meta name="keywords" content="Iluminación, Lamparas, Colgantes, Plafones, Veladores, Apliques, Arañas, Magnalum, Dabor, Ronda, Carilux, Trefilight, Leuk, Vignolo, Vonderk, Artelum, Estepa">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Contacto - MagnaLED</title>
+    <title>Magnalum Media Onda - MagnaLED</title>
     <link rel="shortcut icon" href="../img/logo/bombilla.png">
   </head>
   <body>
@@ -61,70 +61,32 @@
             </div>
         </nav>
     </header>
-    <main class="contenedorContacto">
-        <h2 class="text-center fst-italic py-5">Llena el Formulario de Contacto</h2>
-        <div class="container formulario">
-            <form action="">
-                <fieldset class="p-4 my-4">
-                    <legend class="fw-bold text-uppercase text-center">Información Personal</legend>
-                    <div class="formulario__input">
-                        <label for="nombre" class="formulario__input--espacio">Nombre:</label>
-                        <input class="w-100" type="text" name="nombre" required placeholder="Tu Nombre">
-                    </div>
-                    <div class="formulario__input">
-                        <label for="email" class="formulario__input--espacio">E-Mail:</label>
-                        <input class="w-100" type="email" name="email" required placeholder="Tu Correo Electrónico">
-                    </div>
-                    <div class="formulario__input">
-                        <label for="telefono" class="formulario__input--espacio">Telefono:</label>
-                        <input class="w-100" type="tel" name="telefono" required placeholder="Tu Telefono">
-                    </div>
-                    <div class="formulario__input">
-                        <label for="genero" class="formulario__input--espacio">Selecciona tu Género</label>
-                        <select class="w-100" name="genero" id="">
-                            <option value="mujer">Mujer</option>
-                            <option value="hombre">Hombre</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </div> 
-                    <div class="formulario__input">
-                        <label for="comentarios" class="formulario__input--espacio">Escribinos Tu Consulta:</label>
-                        <textarea class="w-100" name="comentarios" id="" cols="100" rows="10"></textarea>
-                    </div>           
-                </fieldset>
-                <fieldset class="p-4 my-4">
-                    <legend class="fw-bold text-uppercase text-center">Contacto</legend>
-                    <div class="formulario__input contactoFecha">
-                        <div>
-                            <label for="tipocontacto" class="formulario__input--espacio">Como Desea Ser Contactada/o:</label>
-                        </div>
-                        <div>
-                            <input type="radio" value="contactotelefono" name="tipocontacto">
-                            <label for="contactotelefono" class="textoBlanco">Por Telefono</label> 
-                        </div>
-                        <div>
-                            <input type="radio" value="contactoemail" name="tipocontacto"> 
-                            <label for="contactoemail" class="textoBlanco">Por E-Mail</label>
-                        </div>
-                    </div>
-                    <div class="formulario__input">
-                        <label for="contactofecha" class="formulario__input--espacio">Fecha:</label>
-                        <input class="w-100" type="date" name="contactofecha">
-                    </div> 
-                    <div class="formulario__input">
-                        <label for="contactohora" class="formulario__input--espacio">Hora:</label>
-                        <input class="w-100" type="time" name="contactohora" min="9:00" max="18:00">
-                    </div>
-                    <div class="cSecundario formulario__input fw-bold"><label for="terminos">Acepto <a href="../terminos/terminos-y-condiciones.html" class="cBlanco" target="_blank">Términos y Condiciones</a></label>
-                        <input type="checkbox" name="terminos">
-                    </div>
-                </fieldset>
-                <div class="contenedorSubmit d-flex justify-content-start flex-column">
-                    <input type="submit" value="Enviar Mis Datos" class="boton botonSecundario text-uppercase fw-bold my-3 btnContacto"> 
-                    <input type="reset" value="Limpiar Formulario" class="boton botonSecundario text-uppercase fw-bold my-3 btnContacto">
-                </div>
-            </form>
-        </div>
+    <main class="contenedorError">
+        <div class="container d-flex align-items-center justify-content-center flex-column w-100 h-100">
+            <h2 class="text-center text-uppercase fst-italic fs-1 py-5">No Encontramos la Página que Estás Buscando :(</h2>
+            <p class="text-center fw-bold fst-italic pb-5">(Error 404) Parece que te perdimos, acá te dejamos los links más importantes del sitio :)</p>
+            <div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href=".. /index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="../nosotros/nosotros.html">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="../catalogo/catalogo.html">Catálogo</a>
+                        </li>
+                        <li>
+                            <a href="../blog/blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="../contacto/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>                                                                                  
     </main>
     <footer class="footer">
         <div class="container py-5">

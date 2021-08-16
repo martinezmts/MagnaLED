@@ -383,3 +383,14 @@ body {
     .contenedorTerminos .terminosTexto .terminosTexto__titulo {
       color: #39364E;
       font-size: 1.4rem; }
+
+.contenedorError {
+  background-color: #F2D6A2;
+  height: 100vh; }
+  .contenedorError h2 {
+    color: #39364E; }
+  .contenedorError h3 {
+    color: #F2D6A2; }
+  .contenedorError a {
+    color: #39364E;
+    font-weight: 700; }
