@@ -335,6 +335,10 @@ body {
       background-color: #fff; }
     .contenedorContacto .formulario fieldset .textoBlanco {
       color: #fff; }
+    @media (min-width: 768px) {
+      .contenedorContacto .formulario fieldset .contactoFecha {
+        display: flex;
+        gap: 1rem; } }
 
 .contenedorProducto {
   background-color: #F2D6A2; }

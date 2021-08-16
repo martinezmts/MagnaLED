@@ -34,6 +34,12 @@
             .textoBlanco {
                 color: $blanco;
             }
+            .contactoFecha {
+                @media (min-width: 768px) {
+                    display: flex;
+                    gap: 1rem;
+                }
+            }
         }
     }
 }

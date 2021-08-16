@@ -94,12 +94,18 @@
                 </fieldset>
                 <fieldset class="p-4 my-4">
                     <legend class="fw-bold text-uppercase text-center">Contacto</legend>
-                    <div class="formulario__input">
-                        <label for="tipocontacto" class="formulario__input--espacio">Como Desea Ser Contactada/o:</label>
-                        <input type="radio" value="contactotelefono" name="tipocontacto">
-                        <label for="contactotelefono" class="textoBlanco">Por Telefono</label> 
-                        <input type="radio" value="contactoemail" name="tipocontacto"> 
-                        <label for="contactoemail" class="textoBlanco">Por E-Mail</label>
+                    <div class="formulario__input contactoFecha">
+                        <div>
+                            <label for="tipocontacto" class="formulario__input--espacio">Como Desea Ser Contactada/o:</label>
+                        </div>
+                        <div class="pr-3">
+                            <input type="radio" value="contactotelefono" name="tipocontacto">
+                            <label for="contactotelefono" class="textoBlanco">Por Telefono</label> 
+                        </div>
+                        <div class="pr-1">
+                            <input type="radio" value="contactoemail" name="tipocontacto"> 
+                            <label for="contactoemail" class="textoBlanco">Por E-Mail</label>
+                        </div>
                     </div>
                     <div class="formulario__input">
                         <label for="contactofecha" class="formulario__input--espacio">Fecha:</label>
