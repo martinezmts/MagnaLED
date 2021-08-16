@@ -41,16 +41,28 @@ body {
 .botonPrimario {
     background-color: $secundario;
     color: $primario;
+    box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59);
 }
 .botonPrimario:hover {
     color: $negro;
+    box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
+    -webkit-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
+    -moz-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
 }
 .botonSecundario {
     background-color: $primario;
     color: $secundario;
+    box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59);
+    -webkit-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59);
+    -moz-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59);
 }
 .botonSecundario:hover {
     color: $blanco;
+    box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
+    -webkit-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
+    -moz-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
 }
 .btnContacto {
     width: 100%;
@@ -59,5 +71,10 @@ body {
         width: 45%;
         font-size: 1.2rem;
     }
+}
+.sombraDentro {
+    box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
+    -webkit-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
+    -moz-box-shadow: 10px 9px 22px -5px rgba(0,0,0,0.59) inset;
 }
  

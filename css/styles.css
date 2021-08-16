@@ -25,17 +25,29 @@ body {
 
 .botonPrimario {
   background-color: #F2D6A2;
-  color: #39364E; }
+  color: #39364E;
+  box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59); }
 
 .botonPrimario:hover {
-  color: #000; }
+  color: #000;
+  box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset;
+  -webkit-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset;
+  -moz-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset; }
 
 .botonSecundario {
   background-color: #39364E;
-  color: #F2D6A2; }
+  color: #F2D6A2;
+  box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59);
+  -webkit-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59);
+  -moz-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59); }
 
 .botonSecundario:hover {
-  color: #fff; }
+  color: #fff;
+  box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset;
+  -webkit-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset;
+  -moz-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset; }
 
 .btnContacto {
   width: 100%;
@@ -44,6 +56,11 @@ body {
     .btnContacto {
       width: 45%;
       font-size: 1.2rem; } }
+
+.sombraDentro {
+  box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset;
+  -webkit-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset;
+  -moz-box-shadow: 10px 9px 22px -5px rgba(0, 0, 0, 0.59) inset; }
 
 .navbar {
   background-color: #39364E; }
@@ -124,10 +141,6 @@ body {
       @media (min-width: 992px) {
         .contenedorProductos .anuncio a {
           font-size: 1rem; } }
-    .contenedorProductos .anuncio .sombraDentro {
-      box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38) inset;
-      -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38) inset;
-      -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.38) inset; }
 
 .contenedorContactanos {
   background-image: url(../img/banner/bannercontacto.jpg);
