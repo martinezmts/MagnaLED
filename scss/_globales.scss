@@ -42,9 +42,15 @@ body {
     background-color: $secundario;
     color: $primario;
 }
+.botonPrimario:hover {
+    color: $negro;
+}
 .botonSecundario {
     background-color: $primario;
     color: $secundario;
+}
+.botonSecundario:hover {
+    color: $blanco;
 }
 .btnContacto {
     width: 100%;

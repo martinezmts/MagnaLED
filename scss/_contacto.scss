@@ -14,6 +14,15 @@
             -webkit-box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.54);
             -moz-box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.54);
             background-color: $primario;
+            .formulario__input {
+                padding: 0.5rem 0;
+                .formulario__input--espacio {
+                    padding-bottom: 0.5rem;
+                }
+                a {
+                    color: $blanco;
+                }
+            }
             legend,label {
                 color: $secundario;
             }

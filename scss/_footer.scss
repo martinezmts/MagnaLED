@@ -19,11 +19,14 @@
         }
     }
     .contenidoFooter__nav {
+        p {
+            color: $secundario;
+        }
         ul {
-            color: $blanco;
+            color: $secundario;
             li {
                 a{
-                    color: $secundario;
+                    color: $blanco;
                 }
             }
         }

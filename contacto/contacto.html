@@ -11,8 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Contacto - MagnaLED</title>
+    <link rel="shortcut icon" href="../img/logo/bombilla.png">
   </head>
   <body>
     <header>
@@ -49,71 +51,65 @@
                             <a href="../contacto/contacto.html" class="nav-link animate__animated animate__fadeInDown text-uppercase fw-bold">Contacto</a>
                         </li>
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 fw-bold animate__animated animate__fadeInDown" type="search" placeholder="¿Qué Estás Buscando?" aria-label="Search">
+                        <button class="btn botonPrimario animate__animated animate__fadeInDown" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
     <main class="contenedorContacto">
-        <h2 class="text-center fst-italic py-5">Contacto</h2>
-        <img src="../img/banner/bannercontacto2.jpg" alt="Banner Escritorio Iluminado" class="mw-100">
+        <h2 class="text-center fst-italic py-5">Llena el Formulario de Contacto</h2>
         <div class="container formulario">
-            <p class="text-center fst-italic py-5">Llena el Formulario de Contacto</p>
             <form action="">
-                <fieldset class="p-4">
+                <fieldset class="p-4 my-4">
                     <legend class="fw-bold text-uppercase text-center">Información Personal</legend>
-                    <br>
-                    <div>
-                        <label for="nombre" class="fst-italic">Nombre:</label>
+                    <div class="formulario__input">
+                        <label for="nombre" class="fst-italic formulario__input--espacio">Nombre:</label>
                         <input class="w-100" type="text" name="nombre" required placeholder="Tu Nombre">
                     </div>
-                    <br>
-                    <div>
-                        <label for="email" class="fst-italic">E-Mail:</label>
+                    <div class="formulario__input">
+                        <label for="email" class="fst-italic formulario__input--espacio">E-Mail:</label>
                         <input class="w-100" type="email" name="email" required placeholder="Tu Correo Electrónico">
                     </div>
-                    <br>
-                    <div>
-                        <label for="telefono" class="fst-italic">Telefono:</label>
+                    <div class="formulario__input">
+                        <label for="telefono" class="fst-italic formulario__input--espacio">Telefono:</label>
                         <input class="w-100" type="tel" name="telefono" required placeholder="Tu Telefono">
                     </div>
-                    <br>
-                    <div>
-                        <label for="genero" class="fst-italic">Selecciona tu Género</label>
+                    <div class="formulario__input">
+                        <label for="genero" class="fst-italic formulario__input--espacio">Selecciona tu Género</label>
                         <select class="w-100" name="genero" id="">
                             <option value="mujer">Mujer</option>
                             <option value="hombre">Hombre</option>
                             <option value="otro">Otro</option>
                         </select>
                     </div> 
-                    <br>
-                    <div>
-                        <label for="comentarios" class="fst-italic">Escribinos Tu Consulta:</label> <br><br>
+                    <div class="formulario__input">
+                        <label for="comentarios" class="fst-italic formulario__input--espacio">Escribinos Tu Consulta:</label>
                         <textarea class="w-100" name="comentarios" id="" cols="100" rows="10"></textarea>
                     </div>           
                 </fieldset>
-                <br>
-                <fieldset class="bgPrimario p-4">
+                <fieldset class="p-4 my-4">
                     <legend class="fw-bold text-uppercase text-center">Contacto</legend>
-                    <br>
-                    <div>
-                        <label for="tipocontacto" class="fst-italic">Como Desea Ser Contactada/o:</label>
+                    <div class="formulario__input">
+                        <label for="tipocontacto" class="fst-italic formulario__input--espacio">Como Desea Ser Contactada/o:</label>
                         <input type="radio" value="contactotelefono" name="tipocontacto">
                         <label for="contactotelefono" class="textoBlanco">Por Telefono</label> 
                         <input type="radio" value="contactoemail" name="tipocontacto"> 
                         <label for="contactoemail" class="textoBlanco">Por E-Mail</label>
                     </div>
-                    <br>
-                    <div>
-                        <label for="contactofecha" class="fst-italic">Fecha:</label>
+                    <div class="formulario__input">
+                        <label for="contactofecha" class="fst-italic formulario__input--espacio">Fecha:</label>
                         <input class="w-100" type="date" name="contactofecha">
-                    </div>
-                    <br> 
-                    <div>
-                        <label for="contactohora" class="fst-italic">Hora:</label>
+                    </div> 
+                    <div class="formulario__input">
+                        <label for="contactohora" class="fst-italic formulario__input--espacio">Hora:</label>
                         <input class="w-100" type="time" name="contactohora" min="9:00" max="18:00">
                     </div>
-                    <br>
-                    <div class="cSecundario"><label for="terminos">Acepto <a href="#" class="cBlanco">Términos y Condiciones</a></label>
+                    <div class="cSecundario formulario__input"><label for="terminos">Acepto <a href="#" class="cBlanco">Términos y Condiciones</a></label>
                         <input type="checkbox" name="terminos">
                     </div>
                 </fieldset>
@@ -132,7 +128,8 @@
                     <p class="text-center pt-4 fw-bold contenidoFooter__texto--bl">Todos los Derechos Reservados © 2021</p>
                     <p class="fst-italic text-center contenidoFooter__texto--sc">Sitio Creado por Matías Martínez</p>
                 </div>
-                <div class="contenidoFooter__nav col-12 col-md-4 d-flex justify-content-center py-3">
+                <div class="contenidoFooter__nav col-12 col-md-4 d-flex flex-column align-items-center">
+                    <p class="fst-italic text-center fw-bold">Links de Interés</p>
                     <nav>
                         <ul>
                             <li>

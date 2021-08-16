@@ -11,8 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../css/styles.css">
     <title>Magnalum Media Onda - MagnaLED</title>
+    <link rel="shortcut icon" href="../../img/logo/bombilla.png">
   </head>
   <body>
     <header>
@@ -49,6 +51,12 @@
                             <a href="../../contacto/contacto.html" class="nav-link animate__animated animate__fadeInDown text-uppercase fw-bold">Contacto</a>
                         </li>
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 fw-bold animate__animated animate__fadeInDown" type="search" placeholder="¿Qué Estás Buscando?" aria-label="Search">
+                        <button class="btn botonPrimario animate__animated animate__fadeInDown" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
@@ -103,7 +111,8 @@
                     <p class="text-center pt-4 fw-bold contenidoFooter__texto--bl">Todos los Derechos Reservados © 2021</p>
                     <p class="fst-italic text-center contenidoFooter__texto--sc">Sitio Creado por Matías Martínez</p>
                 </div>
-                <div class="contenidoFooter__nav col-12 col-md-4 d-flex justify-content-center py-3">
+                <div class="contenidoFooter__nav col-12 col-md-4 d-flex flex-column align-items-center">
+                    <p class="fst-italic text-center fw-bold">Links de Interés</p>
                     <nav>
                         <ul>
                             <li>

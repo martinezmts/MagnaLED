@@ -27,9 +27,15 @@ body {
   background-color: #F2D6A2;
   color: #39364E; }
 
+.botonPrimario:hover {
+  color: #000; }
+
 .botonSecundario {
   background-color: #39364E;
   color: #F2D6A2; }
+
+.botonSecundario:hover {
+  color: #fff; }
 
 .btnContacto {
   width: 100%;
@@ -74,10 +80,12 @@ body {
   .footer .contenidoFooter .contenidoFooter__texto .contenidoFooter__texto--sc {
     color: #fff;
     font-size: 0.8rem; }
+  .footer .contenidoFooter__nav p {
+    color: #F2D6A2; }
   .footer .contenidoFooter__nav ul {
-    color: #fff; }
+    color: #F2D6A2; }
     .footer .contenidoFooter__nav ul li a {
-      color: #F2D6A2; }
+      color: #fff; }
   .footer .contenidoFooter__newsletter p {
     color: #F2D6A2; }
 
@@ -301,6 +309,12 @@ body {
     -webkit-box-shadow: 5px 4px 16px 0px rgba(0, 0, 0, 0.54);
     -moz-box-shadow: 5px 4px 16px 0px rgba(0, 0, 0, 0.54);
     background-color: #39364E; }
+    .contenedorContacto .formulario fieldset .formulario__input {
+      padding: 0.5rem 0; }
+      .contenedorContacto .formulario fieldset .formulario__input .formulario__input--espacio {
+        padding-bottom: 0.5rem; }
+      .contenedorContacto .formulario fieldset .formulario__input a {
+        color: #fff; }
     .contenedorContacto .formulario fieldset legend, .contenedorContacto .formulario fieldset label {
       color: #F2D6A2; }
     .contenedorContacto .formulario fieldset input, .contenedorContacto .formulario fieldset select, .contenedorContacto .formulario fieldset textarea {

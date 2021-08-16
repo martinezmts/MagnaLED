@@ -11,8 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Nosotros - MagnaLED</title>
+    <link rel="shortcut icon" href="../img/logo/bombilla.png">
   </head>
   <body>
     <header>
@@ -49,14 +51,19 @@
                             <a href="../contacto/contacto.html" class="nav-link animate__animated animate__fadeInDown text-uppercase fw-bold">Contacto</a>
                         </li>
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2 fw-bold animate__animated animate__fadeInDown" type="search" placeholder="¿Qué Estás Buscando?" aria-label="Search">
+                        <button class="btn botonPrimario animate__animated animate__fadeInDown" type="submit">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </form>
                 </div>
             </div>
         </nav>
     </header>
     <main class="contenedorExperiencia" id="nuestraExperiencia">
         <div class="container py-5">
-            <h2 class="text-center fst-italic mb-3">Conocé Sobre Nosotros</h2>
-            <p class="text-center fw-bold">25 Años de Experiencia</p>
+            <h2 class="text-center fst-italic mb-5">Conocé Sobre Nosotros</h2>
             <div id="carouselExampleIndicators" class="carousel slide sizeCarrousel mb-3" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -79,6 +86,7 @@
                   <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <p class="text-center fw-bold fst-italic text-uppercase fs-5">25 Años de Experiencia</p>
             <div class="experienciaTexto text-center fst-italic py-3">
                 <p>MagnaLED es una empresa dedicada a la fabricación integral de artefactos para iluminación y a la importación de las últimas tendencias lumínicas, con más de 25 años liderando el mercado.</p>
                 <p>Contamos con una sucursal moderna exhibiendo nuestros productos, donde el personal profesional y capacitado podrá asesorarte y hacer realidad tu proyecto tomando la mejor decisión de compra.</p>
@@ -131,7 +139,8 @@
                     <p class="text-center pt-4 fw-bold contenidoFooter__texto--bl">Todos los Derechos Reservados © 2021</p>
                     <p class="fst-italic text-center contenidoFooter__texto--sc">Sitio Creado por Matías Martínez</p>
                 </div>
-                <div class="contenidoFooter__nav col-12 col-md-4 d-flex justify-content-center py-3">
+                <div class="contenidoFooter__nav col-12 col-md-4 d-flex flex-column align-items-center">
+                    <p class="fst-italic text-center fw-bold">Links de Interés</p>
                     <nav>
                         <ul>
                             <li>
